@@ -10,7 +10,16 @@
    <from_http
       type="mapper"
       guid="HADemo-HTTP_Auto_Deploy-FromHTTP-TVq5y1EAJvIlWR"
-      commit_id="461aaf082090525bad7add204a77c1ae83104f60"
+      commit_id="318e94ee7fe9ce8c3883dbd370140d672b96d1d7"
       commit_comment="Commit"
       mapper_url_path="testhttp"/>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
 </channel>
